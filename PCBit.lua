@@ -1,6 +1,6 @@
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
     if syn and not KRNL_LOADED and not TRIGON_LOADED and not FLUXUS_LOADED then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/APISYNOB/main/Cream2.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/OBFUP/main/FILE1.lua"))()
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/LoadMain.lua"))()
     end
