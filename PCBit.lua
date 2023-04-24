@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded();
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
-    if getgenv().ScriptsMode == "BETATEST" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LOADBETA/main/TEST.lua"))()
+    if _G.KAITUN_SCRIPT then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/LoadKT.lua"))()
     else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/LoadMain.lua"))()
     end
