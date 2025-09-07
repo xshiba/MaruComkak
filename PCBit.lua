@@ -26,6 +26,7 @@ local GAG = game.PlaceId == 126884695634066
 local ASTDX = game.GameId == 6057699512
 local days99 = game.GameId == 7326934954
 local ZOmBie = game.GameId == 7750955984
+local Fishit = game.GameId == 121864768012064
 task.spawn(function()
     repeat task.wait() until LoadedBackUp
     repeat task.wait() until StatusCheckIsBad
@@ -38,7 +39,7 @@ task.spawn(function()
         end
     elseif MAPKL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
-    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie) then
+    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit) then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
     else
         game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
@@ -56,7 +57,7 @@ local ABC, CBA = pcall(function()
         end
     elseif MAPKL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
-    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie) then
+    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit) then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
     else
         game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
