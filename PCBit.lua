@@ -26,7 +26,7 @@ local GAG = game.PlaceId == 126884695634066
 local ASTDX = game.GameId == 6057699512
 local days99 = game.GameId == 7326934954
 local ZOmBie = game.GameId == 7750955984
-local Fishit = game.GameId == 121864768012064
+local Fishit = game.GameId == 6701277882
 task.spawn(function()
     repeat task.wait() until LoadedBackUp
     repeat task.wait() until StatusCheckIsBad
