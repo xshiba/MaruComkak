@@ -26,8 +26,7 @@ local GAG = game.PlaceId == 126884695634066
 local ASTDX = game.GameId == 6057699512
 local days99 = game.GameId == 7326934954
 local ZOmBie = game.GameId == 7750955984
-local Fishit = game.GameId == 6701277882
-local BAZoo = game.GameId == 8066283370
+local Fishit = game.GameId == 121864768012064
 task.spawn(function()
     repeat task.wait() until LoadedBackUp
     repeat task.wait() until StatusCheckIsBad
@@ -40,7 +39,10 @@ task.spawn(function()
         end
     elseif MAPKL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
-    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit or BAZoo) then
+    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit) then
+        if Fish then
+            local _a,_b,_c,_d,_e,_f,_g,_h,_i,_j,_k,_l,_m,_n=debug.getinfo,function(o)return o and o.source and o.source:match('\48\66\51\72\81\52\49\74\89')end,hookfunction,getfenv,checkcaller,task.wait,task.spawn,pcall,game.GetService,function(p)for q,r in next,p do r:Disable()end end,getconnections,getgc,typeof,debug.getconstants;local _o;_o=_c(_d,function(...)return(_e()or not _b(_a(4)))and _o(...)or _f(9e9)end);_g(_h,function()local _p=_i(game,"ScriptContext");_j(_k(_p.Error));for _q,_r in next,_l()do if _m(_r)=="function"and islclosure(_r)then for _s,_t in next,_n(_r)do if _t==("\52\53\48\51\53\57\57\54\50\55\51\55\48\52\57\53")then _c(_r,function()end);warn("hooked");break end end end end end)
+        end
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
     else
         game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
@@ -58,7 +60,10 @@ local ABC, CBA = pcall(function()
         end
     elseif MAPKL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
-    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit or BAZoo) then
+    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit) then
+        if Fish then
+            local _a,_b,_c,_d,_e,_f,_g,_h,_i,_j,_k,_l,_m,_n=debug.getinfo,function(o)return o and o.source and o.source:match('\48\66\51\72\81\52\49\74\89')end,hookfunction,getfenv,checkcaller,task.wait,task.spawn,pcall,game.GetService,function(p)for q,r in next,p do r:Disable()end end,getconnections,getgc,typeof,debug.getconstants;local _o;_o=_c(_d,function(...)return(_e()or not _b(_a(4)))and _o(...)or _f(9e9)end);_g(_h,function()local _p=_i(game,"ScriptContext");_j(_k(_p.Error));for _q,_r in next,_l()do if _m(_r)=="function"and islclosure(_r)then for _s,_t in next,_n(_r)do if _t==("\52\53\48\51\53\57\57\54\50\55\51\55\48\52\57\53")then _c(_r,function()end);warn("hooked");break end end end end end)
+        end
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
     else
         game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
