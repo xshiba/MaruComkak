@@ -41,49 +41,6 @@ task.spawn(function()
     elseif MAPKL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
     elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit or BAZ) then
-        if Fish then
-            task.spawn(function()
-                repeat
-                    task.wait(1)
-                until game.Players.LocalPlayer.Character and game.Players.LocalPlayer:GetAttribute("DataLoaded") and game.Players.LocalPlayer:GetAttribute("ExitedFromBox")
-                
-            
-                task.wait(5)
-            
-                local function in_ac_stack()
-                    if debug.getinfo(4).source and debug.getinfo(4).source:match('0B3HQ41JY') then
-                        return true
-                    end
-                    return false
-                end
-                local ACsrc = nil
-                local yield = false
-                local old = getrenv().getfenv
-                hookfunction(getrenv().getfenv, function(...)
-                    if not in_ac_stack() or checkcaller() or yield then return old(...) end
-                    print(debug.info(2, 's'))
-                    return coroutine.yield()
-                end)
-            
-                task.spawn(pcall,function()
-                    local ScriptContext = game:GetService("ScriptContext")
-                    for i, v in next, getconnections(ScriptContext.Error) do
-                        v:Disable()
-                    end
-                    for i, v in next, getgc() do
-                        if typeof(v) == "function" and islclosure(v) then
-                            for _, constant in next, debug.getconstants(v) do
-                                if constant == "4503599627370495" then
-                                    hookfunction(v, function() end)
-                                    warn("hooked")
-                                    break
-                                end
-                            end
-                        end
-                    end
-                end)
-            end)
-        end
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
     else
         game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
@@ -102,49 +59,6 @@ local ABC, CBA = pcall(function()
     elseif MAPKL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
     elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or Fishit or BAZ) then
-        if Fish then
-            task.spawn(function()
-                repeat
-                    task.wait(1)
-                until game.Players.LocalPlayer.Character and game.Players.LocalPlayer:GetAttribute("DataLoaded") and game.Players.LocalPlayer:GetAttribute("ExitedFromBox")
-                
-            
-                task.wait(5)
-            
-                local function in_ac_stack()
-                    if debug.getinfo(4).source and debug.getinfo(4).source:match('0B3HQ41JY') then
-                        return true
-                    end
-                    return false
-                end
-                local ACsrc = nil
-                local yield = false
-                local old = getrenv().getfenv
-                hookfunction(getrenv().getfenv, function(...)
-                    if not in_ac_stack() or checkcaller() or yield then return old(...) end
-                    print(debug.info(2, 's'))
-                    return coroutine.yield()
-                end)
-            
-                task.spawn(pcall,function()
-                    local ScriptContext = game:GetService("ScriptContext")
-                    for i, v in next, getconnections(ScriptContext.Error) do
-                        v:Disable()
-                    end
-                    for i, v in next, getgc() do
-                        if typeof(v) == "function" and islclosure(v) then
-                            for _, constant in next, debug.getconstants(v) do
-                                if constant == "4503599627370495" then
-                                    hookfunction(v, function() end)
-                                    warn("hooked")
-                                    break
-                                end
-                            end
-                        end
-                    end
-                end)
-            end)
-        end
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
     else
         game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
