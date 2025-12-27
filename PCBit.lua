@@ -33,10 +33,6 @@ task.spawn(function()
     repeat task.wait() until StatusCheckIsBad
     wait()
     if MAPBF then
-           local old 
-old = hookfunction(hookmetamethod, function(a,i,w) 
-    return task.wait(9e9)
-end) 
         if getgenv().Script_Mode == "Kaitun_Script"then 
             loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader2.lua",true))()
         else 
@@ -55,10 +51,6 @@ LoadedBackUp = true
 print("Loaded [1]")
 local ABC, CBA = pcall(function()
     if MAPBF then
-          local old 
-old = hookfunction(hookmetamethod, function(a,i,w) 
-    return task.wait(9e9)
-end)  
         if getgenv().Script_Mode == "Kaitun_Script"then 
             loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader2.lua",true))()
         else 
