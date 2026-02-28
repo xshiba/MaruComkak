@@ -22,7 +22,7 @@ local AC = game.GameId == 7074860883 or game.PlaceId == 87039211657390
 local ARX = game.PlaceId == 72829404259339
 local HT = game.GameId == 7314989375
 local BS = game.GameId == 7436755782 or game.CreatorId == 33720745
-local GAG = game.PlaceId == 126884695634066
+local GAG = game.GameId == 9509842868
 local ASTDX = game.GameId == 6057699512
 local days99 = game.GameId == 7326934954
 local ZOmBie = game.GameId == 7750955984
