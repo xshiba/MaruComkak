@@ -28,43 +28,16 @@ local days99 = game.GameId == 7326934954
 local ZOmBie = game.GameId == 7750955984
 local Fishit = game.GameId == 121864768012064
 local BAZ = game.GameId == 8066283370
-task.spawn(function()
-    repeat task.wait() until LoadedBackUp
-    repeat task.wait() until StatusCheckIsBad
-    wait()
-    if MAPBF then
-        if getgenv().Script_Mode == "Kaitun_Script"then 
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader2.lua",true))()
-        else 
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader.lua",true))()
-        end
-    elseif MAPKL then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
-    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or game.GameId == 6701277882 or BAZ or game.GameId == 7671049560 or game.GameId == 7394964165 or game.GameId == 8144728961) then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
-    else
-        game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
+if MAPBF then
+    if getgenv().Script_Mode == "Kaitun_Script"then 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader2.lua",true))()
+    else 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader.lua",true))()
     end
-end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/FIXING/main/ABC.lua"))()
-LoadedBackUp = true
-print("Loaded [1]")
-local ABC, CBA = pcall(function()
-    if MAPBF then
-        if getgenv().Script_Mode == "Kaitun_Script"then 
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader2.lua",true))()
-        else 
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader.lua",true))()
-        end
-    elseif MAPKL then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
-    elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or game.GameId == 6701277882 or BAZ or game.GameId == 7671049560 or game.GameId == 7394964165 or game.GameId == 8144728961) then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
-    else
-        game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
-    end
-end)
-if not ABC then
-    StatusCheckIsBad = true
+elseif MAPKL then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader4.lua",true))()
+elseif (MAPBLADEB or MAPFRUITWARRIOR or MAPAFS or MAPRGH or MAPHAZEP or MAPALS or DRIVEEMPIRE or DEMONPIECE or SOLRNG or TITAN or AD or MS or AV or PG or Fish or Jujutsu or AA or BL or AC or HT or ARX or BS or GAG or ASTDX or days99 or ZOmBie or game.GameId == 6701277882 or BAZ or game.GameId == 7671049560 or game.GameId == 7394964165 or game.GameId == 8144728961 or game.GameId == 14890802310) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader3.lua",true))()
+else
+    game.Players.LocalPlayer:Kick("[ MARU ] NOT SUPPORT")
 end
-print("Loadded [2]")
