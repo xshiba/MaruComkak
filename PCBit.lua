@@ -29,7 +29,9 @@ local ZOmBie = game.GameId == 7750955984
 local Fishit = game.GameId == 121864768012064
 local BAZ = game.GameId == 8066283370
 if MAPBF then
-    if getgenv().Script_Mode == "Kaitun_Script"then 
+    if getgenv().configs then 
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/b0439d26e2cbc2183d3276bae16918fc.lua"))()
+    elseif getgenv().Script_Mode == "Kaitun_Script"then 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader2.lua",true))()
     else 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/LoveCream/main/Loader.lua",true))()
