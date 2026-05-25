@@ -28,6 +28,7 @@ local days99 = game.GameId == 7326934954
 local ZOmBie = game.GameId == 7750955984
 local Fishit = game.GameId == 121864768012064
 local BAZ = game.GameId == 8066283370
+script_key=getgenv().key
 if MAPBF then
     if getgenv().configs then 
         loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c8623670feacd7cda53a2a5816355a82.lua"))()
